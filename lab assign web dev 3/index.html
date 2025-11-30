@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurveen - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;
+        padding:0;}
+        body{ background-color: rgb(1, 1, 57);
+            color:aliceblue;
+            font-family: 'Poppins', sans-serif;}
+            nav{display: flex;
+            justify-content: space-around;
+        align-items: center;
+    height: 80px;
+background-color: rgb(32, 32, 148);}
+nav ul{display: flex;
+justify-content: center;}
+nav ul li{list-style: none;
+margin:0 23px;}
+.left{font-size: 1.5rem;}
+
+.firstsection{display: flex;
+justify-content: space-between;
+ margin-top: 23px  ;}
+ .firstsection div{width: 30%;}
+ .leftsection{
+width: 34px;
+font-size: 2.3rem;}
+.rightsection img{width: 300px;}
+.purple{color: palevioletred;}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Gurveen's Portfolio</div>
+             <div class="rigt">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact me</li>
+                </ul>
+             </div>
+        </nav>
+    </header>
+    <main> 
+        <section class="firstsection">
+            <div class="leftsection">Hi, my name is <span class="pink">Gurveen Kaur</span>. and i am web Developer</div>
+            <div class="rightsection">
+                 <img src ="img.jpg.jpg"></div>
+        </section>
+    </main>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+<div class="container">
+
+        <div id="about" class="card">
+            <h2>About Me</h2>
+            <p>I am a beginner web developer learning HTML, CSS, and JavaScript. I enjoy building simple and clean websites.</p>
+        </div>
+
+        <div id="projects" class="card">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1 – Basic Portfolio Website</li>
+                <li>Project 2 – Calculator App (HTML/CSS/JS)</li>
+                <li>Project 3 – To-Do List Web App</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="card">
+            <h2>Contact</h2>
+            <p>Email: kgurveen115@.com</p>
+            <p>GitHub: github.com/Kgurveen</p>
+        </div>
+
+    </div>
+     <footer>
+        <p>© 2025 GURVEEN KAUR. All rights reserved.</p>
+    </footer>
+    
+    <style>
+    .skill {
+            margin: 10px 0;
+        }
+
+        .skill-name {
+            font-weight: bold;
+        }
+
+        .skill-bar {
+            background: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 5px;
+        }
+
+        .skill-level {
+            height: 10px;
+            background: #00b8ff;
+            width: 0;
+            animation: fillBar 2s forwards;
+        }
+
+        /* Animation for skill bars */
+        @keyframes fillBar {
+            from { width: 0; }
+        }
+
+        /* Footer animation */
+        .animated-text {
+            color: #00eaff;
+            font-size: 18px;
+            margin-top: 10px;
+            opacity: 0;
+            animation: fadeMove 3s infinite;
+        }
+
+        @keyframes fadeMove {
+            0% { opacity: 0; transform: translateY(20px); }
+            50% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(20px); }
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+     <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li><strong>HTML:</strong> Structure and semantic layout</li>
+                <li><strong>CSS:</strong> Styling, layouts, responsive design</li>
+                <li><strong>JavaScript:</strong> Basic scripting and DOM manipulation</li>
+                <li><strong>Git & GitHub:</strong> Version control and project management</li>
+                <li><strong>UI/UX Basics:</strong> Clean and attractive design principles</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Portfolio Website</h3>
+                <p>A simple personal portfolio built with HTML, CSS, and JavaScript.</p>
+            </article>
+
+            <article>
+                <h3>Calculator App</h3>
+                <p>An interactive calculator with a clean UI and basic operations.</p>
+            </article>
+
+            <article>
+                <h3>To-Do List App</h3>
+                <p>A task manager web application with add/delete functionality.</p>
+            </article>
+        </section>
+</head>
+<body>
+
+
+</body>
+</html>
